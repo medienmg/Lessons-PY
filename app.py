@@ -7,6 +7,6 @@ try:
     quit()
 
 except:
-    print("Error...")
+    print("Error")
     input("")
     quit()

@@ -1,12 +1,22 @@
-try:
-    a = int(input("enter num1 »"))
-    b = int(input("enter num2: »"))
-    sum = a + b
-    print("result: " + str(sum))
-    input("")
-    quit()
+num1 = 0
+num2 = 0
 
-except:
-    print("Error")
-    input("")
-    quit()
+while True:
+    num1 = input("Enter your thirst number: ")
+    if not num1.isdigit():
+        print("Error, please use numbers instead the letters.")
+        continue
+    else:
+        break
+
+while True:
+    num2 = input("Enter your second number: ")
+    
+    if not num2.isdigit():
+        print("Error, please use numbers instead the letters.")
+        continue
+    else:
+        break
+
+result = int(num1) + int(num2)
+print("Your result: " + str(result))

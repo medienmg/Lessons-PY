@@ -4,7 +4,7 @@ num2 = 0
 while True:
     num1 = input("Enter your thirst number: ")
     if not num1.isdigit():
-        print("Error, please use numbers instead the letters.")
+        print("Error! Please use numbers instead the letters.")
         continue
     else:
         break
@@ -13,7 +13,7 @@ while True:
     num2 = input("Enter your second number: ")
     
     if not num2.isdigit():
-        print("Error, please use numbers instead the letters.")
+        print("Error! Please use numbers instead the letters.")
         continue
     else:
         break
